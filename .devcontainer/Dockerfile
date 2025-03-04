@@ -23,12 +23,13 @@ RUN apt-get update \
 
 
 USER ${USERNAME}
-RUN mkdir -p /home/${USERNAME}/.ssh && \
-    mkdir -p /home/${USERNAME}/.m2 && \
-    mkdir -p /home/${USERNAME}/.aws && \
-    mkdir -p /home/${USERNAME}/.nvm
-
+#RUN mkdir -p /home/${USERNAME}/.ssh && \
+#    mkdir -p /home/${USERNAME}/.m2 && \
+#    mkdir -p /home/${USERNAME}/.aws && \
+#    mkdir -p /home/${USERNAME}/.nvm
+#
 #COPY id_ed* /home/${USERNAME}/.ssh/
+#COPY config /home/${USERNAME}/.ssh/
 #COPY settings.xml /home/${USERNAME}/.m2/
 #COPY config /home/${USERNAME}/.aws/
 #COPY credentials /home/${USERNAME}/.aws/

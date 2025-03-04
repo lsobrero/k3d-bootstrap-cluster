@@ -5,3 +5,4 @@ examples/external-dns/values.yaml
 examples/vault/init-keys.json
 examples/kong-gateway/license.json
 .idea
+*/data
